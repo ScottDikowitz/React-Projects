@@ -1,4 +1,4 @@
-var Widgets = React.createClass({
+var Autocomplete = React.createClass({
   getInitialState: function () {
     return {textInput: ""};
   },
@@ -39,5 +39,5 @@ var Widgets = React.createClass({
 
     </div>;
   }
-  
+
 });
