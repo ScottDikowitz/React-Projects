@@ -1,0 +1,23 @@
+<html>
+  <head>
+
+    <h1>Tabs</h1>
+    <!-- this should be in your HTML -->
+    <script src="https://fb.me/react-0.13.3.js" charset="utf-8"></script>
+    <script src="https://fb.me/JSXTransformer-0.13.3.js" charset="utf-8"></script>
+    <script type="text/jsx" src="tabs.js"></script>
+    <link rel="stylesheet" href="widgets.css" media="screen" title="no title" charset="utf-8">
+    <script type="text/jsx">
+
+      var content = [{title: "hello", content: "this is content"}, {title: "title2", content: "contetn 2"}, {title: "title3", content: "content 3"}];
+      React.render(<Tabs content={content}/>, document.getElementById('tabs'));
+    </script>
+
+
+  </head>
+
+  <body>
+    <div id="tabs">
+    </div>
+  </body>
+</html>
