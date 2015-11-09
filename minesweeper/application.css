@@ -1,0 +1,28 @@
+h1, body, div{
+  font-family: sans-serif;
+  
+}
+
+.tile {
+  border-style: outset;
+  background: #ccc;
+  float: left;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+
+.grid {
+  margin: auto;
+  width: 285px;
+  height: auto;
+}
+
+h1 {
+  text-align: center;
+  margin: auto;
+}
+
+.revealed{
+  border-style: inset;
+}
