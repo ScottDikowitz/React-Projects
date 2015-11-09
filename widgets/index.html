@@ -5,17 +5,28 @@
     <link rel="stylesheet" href="widgets.css" media="screen" title="no title" charset="utf-8">
     <script src="https://fb.me/react-0.13.3.js" charset="utf-8"></script>
     <script src="https://fb.me/JSXTransformer-0.13.3.js" charset="utf-8"></script>
-    <script type="text/jsx" src="widgets.js"></script>
+    <script type="text/jsx" src="autocomplete.js"></script>
+    <script type="text/jsx" src="weatherclock.js"></script>
     <script type="text/jsx">
       var names = ["seung", "scott", "sennacy", "sam", "sandy", "samantha"];
       React.render(<Autocomplete names={names}/>, document.getElementById('autocomplete'));
+      React.render(<Clock />, document.getElementById('clock'));
+      React.render(<WeatherClock />, document.getElementById('weatherclock'));
     </script>
+
 
   </head>
 
   <body>
     <h1>Autocomplete</h1>
     <div id="autocomplete">
+    </div>
+
+    <h1>Weather Clock</h1>
+    <div id="clock">
+    </div>
+
+    <div id="weatherclock">
     </div>
 
   </body>
